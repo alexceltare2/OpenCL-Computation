@@ -1,0 +1,88 @@
+[Project]
+name=OpenCL
+type=0
+defaultConfig=0
+
+[Debug]
+// compiler 
+workingDirectory=
+arguments=
+intermediateFilesDirectory=Debug
+outputFilesDirectory=Debug
+compilerPreprocessor=
+extraCompilerOptions=
+compilerIncludeDirectory=C:\Program Files (x86)\AMD APP SDK\3.0\include;C:\Program Files (x86)\AMD APP SDK\3.0\include\SDKUtil;
+noWarning=0
+defaultWarning=0
+allWarning=1
+extraWarning=0
+isoWarning=0
+warningsAsErrors=0
+debugType=1
+debugLevel=2
+exceptionEnabled=1
+runtimeTypeEnabled=1
+optimizeLevel=0
+
+// linker
+libraryPath=C:\Program Files (x86)\AMD APP SDK\3.0\lib\x86_64;
+outputFilename=Debug\OpenCL.exe
+libraries=
+extraLinkerOptions=-lOpenCL
+ignoreStartupFile=0
+ignoreDefaultLibs=0
+stripExecutableFile=0
+
+// archive
+extraArchiveOptions=
+
+//resource
+resourcePreprocessor=
+resourceIncludeDirectory=
+extraResourceOptions=
+
+[Release]
+// compiler 
+workingDirectory=
+arguments=
+intermediateFilesDirectory=Release
+outputFilesDirectory=Release
+compilerPreprocessor=
+extraCompilerOptions=
+compilerIncludeDirectory=
+noWarning=0
+defaultWarning=0
+allWarning=1
+extraWarning=0
+isoWarning=0
+warningsAsErrors=0
+debugType=0
+debugLevel=0
+exceptionEnabled=1
+runtimeTypeEnabled=1
+optimizeLevel=2
+
+// linker
+libraryPath=
+outputFilename=Release\OpenCL.exe
+libraries=
+extraLinkerOptions=
+ignoreStartupFile=0
+ignoreDefaultLibs=0
+stripExecutableFile=1
+
+// archive
+extraArchiveOptions=
+
+//resource
+resourcePreprocessor=
+resourceIncludeDirectory=
+extraResourceOptions=
+
+[Source]
+1=main.cpp
+[Header]
+[Resource]
+[Other]
+[History]
+main.cpp,199
